@@ -1,25 +1,31 @@
 # 🌎 SciToolkitBR
 
-**SciToolkitBR** é uma biblioteca Java que reúne funções matemáticas, físicas, químicas e científicas amplamente utilizadas no ensino fundamental, médio e superior — com foco inicial no Brasil, mas com expansão planejada para outros países.
-
-O objetivo é fornecer um **conjunto de ferramentas educacionais e científicas** para facilitar cálculos comuns em diversas áreas, como engenharia, medicina, física e química, promovendo **reutilização, clareza e padronização**.
-
----
-
-## ✅ Objetivos do Projeto
-
-- Criar um toolkit modular, bem documentado e de fácil uso em projetos Java.
-- Incluir funções amplamente ensinadas em escolas e universidades brasileiras.
-- Expandir para cálculos e fórmulas comumente utilizadas em outros países (como EUA e França).
-- Oferecer suporte a estudantes, professores, engenheiros e entusiastas da ciência.
-- Servir como recurso de aprendizado e apoio ao desenvolvimento de software educacional.
+**PT-BR**: Biblioteca Java com funções matemáticas, físicas e químicas utilizadas na educação brasileira e internacional.  
+**EN**: Java library with mathematical, physical, and chemical functions used in Brazilian and international education.
 
 ---
 
-## 🧱 Estrutura Modular (Planejada)
+## ✅ Objetivos do Projeto / Project Goals
 
-A estrutura de pacotes foi pensada para separar os conteúdos por país e, dentro deles, por domínio da ciência:
+### 🇧🇷 Português
 
+- Criar um toolkit modular, bem documentado e de fácil uso.
+- Incluir funções amplamente ensinadas no Brasil.
+- Expandir para fórmulas utilizadas em outros países (como EUA e França).
+- Apoiar estudantes, professores, engenheiros e autodidatas.
+- Servir como recurso para softwares educacionais.
+
+### 🇺🇸 English
+
+- Build a modular, well-documented, and easy-to-use toolkit.
+- Include functions widely taught in Brazilian education.
+- Expand to scientific formulas used in other countries (e.g., USA, France).
+- Support students, teachers, engineers, and science learners.
+- Serve as a resource for educational software.
+
+---
+
+## 🧱 Estrutura Modular / Modular Structure
 
 ````
 br/
@@ -45,46 +51,45 @@ br/
 
 ---
 
-## 📚 Exemplos de Funções Implementadas
+## 📚 Funções Exemplo / Example Functions
 
-- **Matemática Básica**:
-  - Regra de Três Simples
-  - Porcentagem
-  - Média Aritmética
-
-- **Física**:
-  - Velocidade Média
-  - Leis de Newton (em breve)
-
-- **Química**:
-  - Cálculo de Massa Molar
-  - Estequiometria (planejado)
-
-- **Utilitários**:
-  - Conversão de unidades (metros ↔ quilômetros, Celsius ↔ Fahrenheit)
-  - Constantes físicas (gravidade, carga do elétron, etc.)
+| Domínio / Domain      | 🇧🇷 Português                         | 🇺🇸 English                          |
+|-----------------------|---------------------------------------|--------------------------------------|
+| Matemática Básica     | Regra de Três, Porcentagem, Média     | Rule of Three, Percentage, Mean     |
+| Física                | Velocidade Média, Leis de Newton      | Average Speed, Newton’s Laws        |
+| Química               | Massa Molar, Estequiometria (em breve)| Molar Mass, Stoichiometry (soon)    |
+| Utilidades            | Conversões, Constantes Físicas        | Unit Conversion, Physical Constants |
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias / Technologies
 
 - Java 17+
 - Maven
-- JUnit 5 (para testes)
-- [Planejado] GitHub Actions para CI/CD
+- JUnit 5
+- GitHub Actions *(planejado / planned)*
 
 ---
 
-## 🚀 Como Contribuir
+## 🚀 Como Contribuir / How to Contribute
 
-Contribuições são bem-vindas! Veja como você pode ajudar:
+### 🇧🇷 Português
 
-- Sugira novas funções típicas da sua área de estudo/trabalho.
-- Envie pull requests com melhorias ou novas funcionalidades.
-- Traduza e documente funções para outras culturas científicas.
+- Sugira novas funções da sua área.
+- Crie pull requests com melhorias.
+- Ajude a documentar e traduzir funções.
+
+### 🇺🇸 English
+
+- Suggest new scientific functions from your field.
+- Submit pull requests with improvements or features.
+- Help translate and document functions for other regions.
 
 ---
 
-## 🧾 Licença
+## 🧾 Licença / License
 
-Este projeto será disponibilizado sob a licença MIT.
+Este projeto está sob a licença **MIT**.  
+This project is licensed under the **MIT License**.
+
+---
