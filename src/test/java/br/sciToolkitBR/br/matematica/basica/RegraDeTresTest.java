@@ -25,4 +25,9 @@ public class RegraDeTresTest {
     void testeDivisaoPorZero() {
         assertThrows(IllegalArgumentException.class, () -> RegraDeTres.calcular(0, 10, 4));
     }
+
+    @Test
+    void testeDivisaoPorZeroInversamente() {
+        assertThrows(IllegalArgumentException.class, () -> RegraDeTres.calcularInversamente(15, 18, 0));
+    }
 }
