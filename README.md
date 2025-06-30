@@ -20,6 +20,8 @@ O objetivo é fornecer um **conjunto de ferramentas educacionais e científicas*
 
 A estrutura de pacotes foi pensada para separar os conteúdos por país e, dentro deles, por domínio da ciência:
 
+
+````
 br/
 └── scitoolkitbr/
 ├── br/ # Funções típicas no Brasil
@@ -39,7 +41,7 @@ br/
 ├── matematica/
 ├── fisica/
 └── quimica/
-
+````
 
 ---
 
