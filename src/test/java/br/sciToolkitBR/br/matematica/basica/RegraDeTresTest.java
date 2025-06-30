@@ -9,12 +9,20 @@ public class RegraDeTresTest {
 
     @Test
     void testeCalculo() {
-        double resultado = RegraDeTres.calcular(2, 10, 4);
-        assertEquals(20.0, resultado);
+        double resultado = RegraDeTres.calcular(3, 7, 5);
+
+        assertEquals(11.67, resultado);
     }
 
     @Test
-    void testDivisaoPorZero() {
+    void testeCalculoInversamenteProporcional() {
+        double resultado = RegraDeTres.calcularInversamente(15, 18, 10);
+
+        assertEquals(27, resultado);
+    }
+
+    @Test
+    void testeDivisaoPorZero() {
         assertThrows(IllegalArgumentException.class, () -> RegraDeTres.calcular(0, 10, 4));
     }
 }
