@@ -87,4 +87,4 @@ Contribuições são bem-vindas! Veja como você pode ajudar:
 
 ## 🧾 Licença
 
-Este projeto será disponibilizado sob a licença MIT (ou outra de sua escolha).
+Este projeto será disponibilizado sob a licença MIT.
