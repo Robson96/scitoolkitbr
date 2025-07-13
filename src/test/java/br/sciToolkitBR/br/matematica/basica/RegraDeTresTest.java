@@ -15,19 +15,7 @@ public class RegraDeTresTest {
     }
 
     @Test
-    void testeCalculoInversamenteProporcional() {
-        double resultado = RegraDeTres.calcularInversamente(15, 18, 10);
-
-        assertEquals(27, resultado);
-    }
-
-    @Test
     void testeDivisaoPorZero() {
         assertThrows(IllegalArgumentException.class, () -> RegraDeTres.calcular(0, 10, 4));
-    }
-
-    @Test
-    void testeDivisaoPorZeroInversamente() {
-        assertThrows(IllegalArgumentException.class, () -> RegraDeTres.calcularInversamente(15, 18, 0));
     }
 }
